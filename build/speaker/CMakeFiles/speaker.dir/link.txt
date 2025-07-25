@@ -1,0 +1,2 @@
+/usr/bin/ar qc libspeaker.a CMakeFiles/speaker.dir/source/speaker.cpp.o
+/usr/bin/ranlib libspeaker.a

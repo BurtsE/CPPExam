@@ -1,0 +1,2 @@
+/usr/bin/ar qc libactive_device.a CMakeFiles/active_device.dir/source/active_device.cpp.o
+/usr/bin/ranlib libactive_device.a
