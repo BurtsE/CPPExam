@@ -4,14 +4,14 @@
 
 enum class DeviceType {
     ACTIVE, 
-    SMART,
+    SENSOR,
     COMPOSITE
 };
 
 class SmartDevice {
-private:
+protected:
 
-    int ID_;
+    unsigned ID_;
 
     std::string name_;
 
@@ -19,7 +19,9 @@ private:
 
 public:
 
-    int ID();
+    SmartDevice(unsigned id, std::string name): ID_(id), name_(name), is_online_(false){};
+
+    unsigned ID();
     
     std::string name();
 
@@ -27,6 +29,6 @@ public:
 
     virtual DeviceType get_type() = 0 ;
     
-    virtual ~SmartDevice() = 0;
+    virtual ~SmartDevice() = default;
 
 };

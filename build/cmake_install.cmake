@@ -1,4 +1,4 @@
-# Install script for directory: /home/beus/cxx/exam
+# Install script for directory: /home/beusel/cpp/CPPExam
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,17 +44,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/beus/cxx/exam/build/device/cmake_install.cmake")
+  include("/home/beusel/cpp/CPPExam/build/device/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/beus/cxx/exam/build/room/cmake_install.cmake")
+  include("/home/beusel/cpp/CPPExam/build/room/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/beus/cxx/exam/build/speaker/cmake_install.cmake")
+  include("/home/beusel/cpp/CPPExam/build/speaker/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/beusel/cpp/CPPExam/build/house/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/beusel/cpp/CPPExam/build/cmd/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +75,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/beus/cxx/exam/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/beusel/cpp/CPPExam/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

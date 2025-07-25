@@ -6,16 +6,17 @@
 #include <ctime>
 
 
-class SensorDevice : public SmartDevice {
+class SensorDevice : virtual public SmartDevice {
 
 public:
-    SensorDevice() = default;
 
-    ~SensorDevice() = default;
+    SensorDevice(unsigned id, std::string name): SmartDevice(id, name) {} ;
 
     std::string indicate_value();
 
-    DeviceType get_type() override ;
+    DeviceType get_type() override;
+
+    ~SensorDevice() override = default;
 
 };
 

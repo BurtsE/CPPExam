@@ -1,4 +1,4 @@
-# Install script for directory: /home/beus/cxx/exam/device
+# Install script for directory: /home/beusel/cpp/CPPExam/device
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,21 +44,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/beus/cxx/exam/build/device/active_device/cmake_install.cmake")
+  include("/home/beusel/cpp/CPPExam/build/device/active_device/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/beus/cxx/exam/build/device/smart_device/cmake_install.cmake")
+  include("/home/beusel/cpp/CPPExam/build/device/smart_device/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/beus/cxx/exam/build/device/sensor_device/cmake_install.cmake")
+  include("/home/beusel/cpp/CPPExam/build/device/sensor_device/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/beus/cxx/exam/build/device/composite_device/cmake_install.cmake")
+  include("/home/beusel/cpp/CPPExam/build/device/composite_device/cmake_install.cmake")
 endif()
 

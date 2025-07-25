@@ -10,6 +10,7 @@ add_subdirectory(device)
 add_subdirectory(room)
 add_subdirectory(speaker)
 add_subdirectory(house)
+add_subdirectory(cmd)
 
 
 

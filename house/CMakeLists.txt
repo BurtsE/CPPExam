@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project (house)
 
 
-add_library(house PUBLIC source/house.cpp)
+add_library(house STATIC source/house.cpp)
 
 target_include_directories(house PUBLIC include)
 

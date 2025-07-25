@@ -1,4 +1,4 @@
-# Install script for directory: /home/beus/cxx/exam/speaker
+# Install script for directory: /home/beusel/cpp/CPPExam/speaker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
