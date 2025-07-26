@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsmart_device.a CMakeFiles/smart_device.dir/source/smart_device.cpp.o
-/usr/bin/ranlib libsmart_device.a

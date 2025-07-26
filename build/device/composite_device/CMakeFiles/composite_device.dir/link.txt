@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcomposite_device.a CMakeFiles/composite_device.dir/source/composite_device.cpp.o
-/usr/bin/ranlib libcomposite_device.a
